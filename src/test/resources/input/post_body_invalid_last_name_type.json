@@ -1,0 +1,10 @@
+{
+  "id": 1,
+  "first_name": "Dragos",
+  "last_name": 1,
+  "properties": {
+    "age": 29,
+    "active": true,
+    "date_of_birth": "10/11/1988"
+  }
+}
