@@ -6,7 +6,7 @@ Feature: Customer
     When executing POST new customer request
     Then the status code is 201
     And response includes the following
-      | id 	   | 1 			          |
+      | id     | 1                    |
       | status | successfully created |
 
 
@@ -73,7 +73,7 @@ Feature: Customer
     When executing GET request for customer with id '1'
     Then the status code is 200
     And response includes the following
-      | id 	                     | 1 	      |
+      | id                       | 1          |
       | first_name               | Dragos     |
       | last_name                | Serghie    |
       | properties.age           | 29         |
